@@ -5,6 +5,12 @@
 	<link rel="stylesheet" href="style.css">
 	<title>Reservia</title>
 	<script src="https://kit.fontawesome.com/82e42754f2.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+
+
 
 
 </head>
@@ -12,49 +18,50 @@
 
 <!-- EN TETE -->
 
-<header>
-		
-			<div id="logo">
-				<img src="images/logo/reservia.svg" alt="Logo de reservia"/>
-			</div>
-				<ul class="menu">
-					<li><a href="#">Hébergements</a></li>
-					<li><a href="#">Activités</a></li>
-					<li><a href="#">S'inscrire</a></li>
-				</ul>
+<header class="header">
+			
+				<img class="logo" src="images/logo/reservia.svg" alt="Logo de reservia"/>
 
+               
+                <a class="inscription" href="#"><strong>S'inscrire</strong></a>
+
+                <nav class="menu">
+				<a class="lien-menu" href="#">Hébergements</a>
+				<a class="lien-menu" href="#">Activités</a>
+			    </nav>
 </header>
 
-<!-- Header FINDER -->
+<header class="principal">
 
- <header>
 			
-		<h2>Trouvez votre hébergement pour des vacances de rêves</h2>
-			<p>En plein centre ville ou en pleine nature</p>
-				 <form id="recherche">
-					<i class="fas fa-map-marker-alt"></i>
-					<input type="search" name=" Recherche" value="Marseille, France"/>
+		<h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+			<p class="nature">En plein centre ville ou en pleine nature</p>
+
+				 <form class="recherche">
+					<a href="#" class="place"><i class="fas fa-map-marker-alt"></i></a>
+					<input class="search" type="search" name=" Recherche" value="Marseille, France"/>
 					<button><strong>Rechercher</strong></button>
+					<a href="#" class="loupe"><i class="fas fa-search"></i></a>
 				</form>
 </header>
 
 
-		<nav>
+		<nav class="menu2">
 
-		<h3>Filtres</h3>
-			<ul class="filtres"/>
-					<li><i class="fas fa-money-bill-wave"></i><a href="#"><strong>Économique</strong></li>
+		<h4>Filtres</h4>
+			<div class="filtres">
+					<div class="choix1"><a href="#"class="icons1"><i class="fas fa-money-bill-wave"></i></a><a href="#"><strong>Économique</strong></a></div>
 
-					<li><i class="fas fa-child"></i><a href="#"><strong>Familial</strong></li>
+					<div class="choix2"><a href="#"class="icons2"><i class="fas fa-child"></i></a><a href="#"><strong>Familial</strong></a></div>
 
-					<li><i class="fas fa-heart"></i><a href="#"><strong>Romantique</strong></li>
+					<div class="choix3"><a href="#"class="icons3"><i class="fas fa-heart"></i></a><a href="#"><strong>Romantique</strong></a></div>
 
-					<li><i class="fas fa-dog"></i><a href="#"><strong>Animaux autorisés</strong></li></a>
-			</ul>
+					<div class="choix4"><a href="#"class="icons4"><i class="fas fa-dog"></i></a><a href="#"><strong>Animaux autorisés</strong></a></div>
+			</div>
 		</nav>
 
               
-		<p> <i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville </p>
+		<i id="info" class="fas fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
 
 <!-- SECTION HEBERGEMENTS -->
 
@@ -73,11 +80,11 @@
 		<i class="fas fa-star"></i>
 		<i class="fas fa-star"></i>
 	    </a>
-	</div>
+	
 
 	<br/>
 
-	<div>
+	
 		<a href="#">
 		<img src="images/hebergements/4_small/hotelport.jpg">
 		<p class="noms logements"><strong>Hotêl du port</strong></p>
@@ -88,11 +95,11 @@
 		<i class="fas fa-star"></i>
 		<i class="fas fa-star"></i>
 	    </a>
-	</div>
+	
 
 	<br/>
 
-<div>
+
 	<a href="#">
 		<img src="images/hebergements/4_small/lesmouettes.jpg">
 		<p class="noms logements"><strong>Hotêl Les mouettes</strong></p>
@@ -118,11 +125,11 @@
 		<i class="fas fa-star"></i>
 		<i class="fas fa-star"></i>
 	</a>
-</div>
+
 
 	<br/>
 
-	<div>
+	
 		<a href="#">
 		<img src="images/hebergements/4_small/lepanier.jpg">
 		<p class="noms logements"><strong>Auberge Le Panier</strong></p>
@@ -133,11 +140,11 @@
 		<i class="fas fa-star"></i>
 		<i class="fas fa-star"></i>
 	    </a>
-	</div>
+	
 
 	<br/>
 
-	<div>
+	
 		<a href="#">
 		<img src="images/hebergements/4_small/febrian.jpg">
 		<p class="noms logements"><strong>Hotêl chez Amina</strong></p>
@@ -206,6 +213,7 @@
 </aside>
 		
 		<!-- ARTICLE ACTIVITES -->	
+
 <article>
 			<h2>Activités à Marseille</h2>
 
