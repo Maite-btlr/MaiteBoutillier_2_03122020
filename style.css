@@ -33,6 +33,20 @@ a
 
 }
 
+/*--- STARS ---*/
+
+#stars
+{
+	color: #0065FC;
+}
+
+#starsg
+{
+	color:#F3F3F3;
+}
+
+/*-----HEBERGEMENTS-----*/
+
 .hebergements2
 {
 	padding: 20px;
@@ -41,17 +55,13 @@ a
 }
 .cannebiere, .port, .mouettes, .mer, .panier, .amina 
 {
-	
 	max-width: 20%;
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 10px;
 	padding-bottom: 6px;
 	margin-bottom: 5px;
-
-	
 }
-
 .cannebiere
 {
 	margin-right: 20px;
@@ -81,16 +91,9 @@ img
 {
 	max-width: 100%;
 	border-radius: 10px 10px 0px 0px;
-	
-}
-
-.imgamina
-{
-	max-height: 10%;
 }
 
 .txt
-
 {
 	padding-left: 10px;
 	max-width: 80%;
@@ -102,7 +105,7 @@ img
 	flex-wrap: wrap;
 }
 
-/* Mobile */
+/*--- Mobile ---*/
 
 @media screen and (max-width: 1024px)
 {
@@ -114,19 +117,9 @@ html
    margin-bottom: 20px; 
 }
 
-section
-{
-	background-color: white;
-	margin-right: 30px;
-	margin-left: 30px;
-
-}
-
 aside
 {
-	background-color: #F2F2F2;
-	margin-right: 30px;
-	margin-left: 30px;
+	background-color: #F2F2F2;	
 }
 
 /* HEADER mobile */
@@ -159,7 +152,7 @@ aside
 	justify-content: space-around;
 	display: flex;
 	flex-wrap: nowrap;
-
+	padding-bottom: 25px;
 }
 
 .hebergements, .activites a:hover
@@ -167,7 +160,6 @@ aside
 text-decoration: #0065FC;
 border-bottom: #0065FC;
 }
-
 
 .principal
 {
@@ -187,17 +179,18 @@ border-bottom: #0065FC;
 
 .recherche
 {
-    
 	border-radius: 40px;
 	border: 40px #F2F2F2;
+	display: inline-flex;
 	text-align: center;
-	display: flex;
+	margin: 30px;
+	margin-right: 20px;	
 }
 
 .search
 {
 	font-size: 50px;
-	
+	padding-left: 30px;
 }
 
 button
@@ -221,20 +214,17 @@ button
 	border: 40px solid #0065FC;
 	font-size: 40px;
 	background-color: #0065FC;
-	color: white;
-   
+	color: white;  
 }
 
 .menu2
 {
 	margin-right: 30px;
-	margin-left: 30px;
-	
+	margin-left: 30px;	
 }
  
 .flitres
-{
-	
+{	
 	justify-content: space-around;
 }
 
@@ -257,7 +247,6 @@ button
 	padding-bottom: 40px;
 	background-color: #DEEBFF; 
 	color:#0065FC ;
-
 }
 
 .icons3
@@ -271,32 +260,28 @@ button
 	color:#0065FC ;
 }
 
-/* CECI NE FONCTIONNE PAS*/
+/* CECI NE FONCTIONNE PAS CORRECTEMENT*/
 
 .choix1 , .choix2 , .choix3 , .choix4
 {
- 
  border-radius: 100px;
- border: 2px solid grey;
- padding-top: 50px;
- padding-bottom: 50px;
+ border: 7px solid #F2F2F2;
+ border-left-style: none;
+ padding-top: 34px;
+ padding-bottom: 34px;
  padding-left: 0px;
  padding-right: 20px;
- margin: 30px;
- margin: 30px;
  max-width: 60%;
-
- 
+ margin: 30px;
 }
 
-.choix2
+.txtf
 {
-	float: right;
+	padding-left: 30px;
 }
 
 #info
 {
-
 	margin-right: 30px;
 	margin-left: 30px;
 	border-radius: 50px;
@@ -310,45 +295,111 @@ button
 	float: left;
 }
 
+/*-----HEBERGEMENTS-----*/
 
 .hebergements2
 {
-	padding: 20px;
 	max-width: 100%;
 	background-color: white;
+}
+
+.imgh
+{   
+	object-fit: cover;
+	width: 100%;
+	max-height: 60%;
+	border-radius: 40px 40px 0px 0px;
+	background-position: cover;
 }
 .cannebiere, .port, .mouettes, .mer, .panier, .amina 
 {
-	
-	max-width: 1024px;
+	min-width: 900px;
+	max-height: 550px;
 	background-color: white;
-	border: 20px solid white;
-	box-shadow: 5px 5px 5px 5px whitesmoke;
-	border-radius: 30px;
-	padding-bottom: 2px;
-	margin-bottom: 30px;	
-}
-
-img
-{
-	max-width: 1024px;
-	border-radius: 30px 30px 0px 0px;
-	
-}
-
-.txt
-
-{
-	padding-left: 10px;
-	max-width: 100%;
+	border: 10px solid white;
+	border-radius: 40px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	box-shadow: 20px 20px 20px #F2F2F2;
 }
 
 .ligne1, .ligne2
 {
 	display: flex;
 	flex-wrap: column;
+	justify-content:  center;
 }
 
+.txth
+{
+	background-color: white;
+	padding-left: 10px;
+	display: flex;
+	justify-content: bottom;
+	position: absolute;
+	min-width: 900px;
+	max-height: 20px;
+	line-height: 20px;	
+}
+
+/*-----POPULAIRE-----*/
+
+aside
+{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.matin, .coeureau, .bleublanc
+{
+	min-width: 900px;
+	max-height: 400px;
+	background-color: #F2F2F2 ;
+	border: 10px solid white;
+	border-radius: 30px;
+	margin: 20px;	
+}
+
+.imgp
+{
+	border-radius: 30px 0px 0px 30px;
+	max-width: 400px;
+	max-height: 400px;
+	background-size: cover;	
+}
+
+.txt2
+{
+	background-color: white;
+	float: right;
+	max-width: 500px;
+	min-height: 400px;
+	
+}
+
+.nomslogements
+{
+  padding-bottom: 70px;
+}
+
+/*-----ACTIVITÉS-----*/
+
+.vieuxport, .pomegues, .frioul, .calanques, .nddlg, .longchamp
+{
+	border-radius: 40px 40px 0px 0px;
+}
+
+/*-----FOOTER-----*/
+
+footer
+{
+	width: 100%;
+}
+.footer1, .footer2, .footer3
+{
+	margin-left: 10%;
+}
 
 }
 
