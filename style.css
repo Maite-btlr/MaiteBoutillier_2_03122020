@@ -1,5 +1,6 @@
-
-/* GENERAL */
+@media all and (min-width:1024px)
+{
+	/* WEB GENERAL*/
 
 html
 {
@@ -10,14 +11,20 @@ html
 
 body
 {
-	font-family: 'Raleway', 'sans-serif';	
+	font-family: 'Raleway', 'sans-serif';
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-left: 5%;
 }
-
 section, footer
 {
 	background-color:#F2F2F2; 
 }
 
+aside
+{
+	background-color: #F2F2F2;
+}
 ul
 {
 	list-style-type: none;
@@ -29,6 +36,167 @@ a
 	color: black;
 }
 
+/* header desktop */
+
+.logo
+{
+	width: 10%;
+}
+
+.inscription, .menu
+{
+	display: inline-flex;
+	float: right;	
+}
+
+.hebergements, .activites
+{
+	flex-direction: row-reverse;
+	
+}
+
+.inscription
+{
+	padding-left:3%;
+	color: #0065FC;
+}
+
+.hebergements
+{
+	padding-right: 20%;
+	color: #0065FC;
+	text-decoration: 2px overline #0065FC;
+}
+
+/* menu top */
+
+.recherche
+{
+    border: 1px solid #F2F2F2;
+    border-radius: 12px;
+	width: 35%;
+}
+
+.place
+{
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-radius: 10px 0px 0px 10px;
+	padding: 15px;
+	font-size: 13px;
+}
+
+button
+{
+	background-color: #0065FC;
+	color: white;
+	padding: 12px;
+	border: 1px solid #0065FC;
+	border-radius: 0px 12px 12px 0px;
+	font-size: 12px;
+}
+
+.loupe
+{
+	display: none!important;
+}
+
+.search
+{
+	font-size: 15px;	
+}
+
+input
+{
+	 border:none;
+}
+
+/* FILTRES */
+
+.menu2, .filtres
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.titrefiltres
+{
+	padding-top: 25px;
+	padding-right: 20px;
+}
+
+.filtres
+{
+	padding-top: 20px;
+
+}
+.choix1 a:hover, .choix2 a:hover, .choix3 a:hover, .choix4 a:hover
+{
+color: #0065FC;
+}
+
+.choix1, .choix2, .choix3, .choix4
+{
+	border: 2px solid #DEEBFF;
+	border-radius:30px;
+	padding: 15px;
+	padding-left:0px;
+	margin: 8px;
+}
+.icons1, .icons4
+{
+	border: 1px solid #DEEBFF;
+	border-radius: 30px;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	padding: 15px;
+}
+.icons2
+{
+	border: 1px solid #DEEBFF;
+	border-radius: 30px;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	padding: 15px;
+	padding-right: 18px;
+	padding-left: 18px;
+}
+ .icons3
+{
+	border: 1px solid #DEEBFF;
+	border-radius: 30px;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	padding: 15px;
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+.txtf
+{
+	padding-left: 5px;
+}
+/* INFO */
+
+#info
+{
+  border: 1px solid #F2F2F2;
+  border-radius: 30px;
+  padding: 5px 8px 5px 8px;
+  font-size: 10px;
+  color: #0065FC;
+  
+}
+
+.dispo, #info
+{
+	display: inline-flex;
+}
+.dispo 
+{
+	color: grey;
+	padding-left: 5px;
+}
 /* STARS */
 .stars
 {
@@ -38,75 +206,91 @@ a
 {
 	color: #F2F2F2;
 }
-
 /* HEBERGEMENTS */
 
 .hebergements2
 {
-	padding: 20px;
+    margin-top: 20px;
 	border-radius: 20px;
-	max-width: 60%;
+	padding: 10px;
+	width: 60%;
+	height: 40%;
 }
 .cannebiere, .port, .mouettes, .mer, .panier, .amina 
 {
-	max-width: 20%;
-	background-color: white;
-	border: 3px solid white;
-	border-radius: 10px;
-	padding-bottom: 6px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 10px;
 	margin-bottom: 5px;
-}
-.cannebiere
-{
-	margin-right: 20px;
-}
-.port
-{
-	margin-right: 20px;
-}
-.mouettes
-{
-	margin-right: 20px;
-}
-.mer
-{
-	margin-right: 20px;
-}
-.panier
-{
-	margin-right: 20px;
-}
-.amina
-{
-	margin-right: 20px;
+	width: 30%;
+	height: 10%;
 }
 
-img
+.imgh
 {
-	max-width: 100%;
-	border-radius: 10px 10px 0px 0px;
+	object-fit: cover;
+	width: 100%;
+	height: 100px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .txt
 {
-	padding-left: 10px;
-	max-width: 80%;
+    padding-left: 20px;
+	width: 70px;
+	height: 40px;
+	font-size: 10px;
+
 }
 
 .ligne1, .ligne2
 {
-	display: flex;
-	flex-wrap: wrap;
+    display: inline-flex;
+
 }
 
-/* Mobile */
+aside
+{
+	width: 30%;
+}
+.imgp
+{
+	object-fit: cover;
+	width: 35%;
+	height: 100px;
+	border-radius: 20px 0px 0px 20px;
+	
+}
+.matin, .coeureau, .bleublanc
+{
+	border: 3px solid white;
+	border-radius: 20px;
+}
 
-@media screen and (max-width: 1024px)
+.txt2
+{
+	font-size: 13px;
+	background-color: white;
+	width: 65%;
+	height: 100px;
+	float: right;
+}
+
+}
+
+/* _________________________________FIN DESKTOP________________________________ */
+
+/* MOBILE */
+
+@media screen and (max-width:1024px)
 {
 
 body
 {
 	margin: 0 auto;
+	font-family: 'Raleway', 'sans-serif';
+
 }
 
 html
@@ -114,27 +298,43 @@ html
    font-size: 40px;
    margin-top: 20px;
    margin-bottom: 20px; 
-
 }
-
-aside
+ul
 {
-	background-color: #F2F2F2;	
+    list-style-type: none;
 }
+
+a
+{
+    text-decoration: none;
+	color: black;
+}
+section, footer
+{
+    background-color:#F2F2F2; 
+}
+/* STARS */
+.stars
+{
+    color: #0065FC;
+}
+.starsg
+{
+    color: #F2F2F2;
+}
+
 
 /* HEADER mobile */
 
 .header
 {
-	margin-top: 30px;
+	margin-top: 5%;
 }
 
 .logo
 {
-	margin-left: 20px;
 	min-height: 120px;
-	margin-right: 30px;
-	margin-left: 50px;
+	margin-left: 5%;
 }
 
 .inscription
@@ -143,14 +343,14 @@ aside
 	vertical-align: top;
 	float: right;
 	color: #0065FC;
-	margin-top: 50px;
-	margin-right: 50px;
+	margin-right: 5%;
+	margin-top: 5%;
 	font-size: 45px;	
 }
 
 .menu
 {
-	margin-top: 50px;
+	margin-top: 5%;
 	font-size: 45px;
 	display: flex;
 	flex-wrap: nowrap;
@@ -160,7 +360,7 @@ aside
 .activites
 {
 	border-bottom: solid 8px #F2F2F2;
-	padding-bottom: 25px;
+	padding-bottom: 3%;
 	min-width: 50%;
 
 }
@@ -169,23 +369,22 @@ aside
 {
 	color: #0065FC;
 	border-bottom: solid 8px #0065FC;
-	padding-bottom: 25px;
-	min-width: 50%;
-
-	
+	padding-bottom: 3%;
+	min-width: 50%;	
 }
 
 .principal
 {
     font-size: 50px;
-    margin-right: 30px;
-	margin-left: 50px;
+    margin-right: 2%;
+	margin-left: 5%;
 }
 
 .nature
 {
-	font-size: 40px;
-	margin-left: 5px;
+
+	margin-left: 1%;
+	padding-bottom: 8%;
 }
 
 .recherche
@@ -214,15 +413,13 @@ button
 	font-size: 50px;
 	background-color: #F2F2F2;
 	color: black;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 .loupe 
 {
 	border-radius: 40px;
 	border: 40px solid #0065FC;
-	font-size: 40px;
+	font-size: 45px;
 	background-color: #0065FC;
 	color: white; 
 }
@@ -240,7 +437,6 @@ button
 	padding-left: 40px;
 }
 
- 
 .filtres
 {	
 
@@ -316,24 +512,27 @@ button
 .dispo
 {
 	padding-top: 10px;
-	padding-right: 20px;
-
+	padding-right: 2%;
+    padding-bottom: 20px;
 }
 
 /* HEBERGEMENTS */
 
 .hebb
 {
-	padding-left: 20px;
-    padding-bottom: 25px;
+	padding-left: 5%;
+    padding-bottom: 5%;
 	font-size: 50px;
 }
 
 .hebergements2
 {
 	max-width: 100%;
+	max-height: 40%;
 	background-color: white;
 	align-items: center;
+	margin-left: 5% ;
+	margin-right: 5% ;
 }
 
 .imgh
@@ -341,36 +540,34 @@ button
 	object-fit: cover;
 	width: 100%;
 	max-height: 60%;
-	border-radius: 40px 40px 0px 0px;
-	
+	border-radius: 40px 40px 0px 0px;	
 }
+
+
 .cannebiere, .port, .mouettes, .mer, .panier, .amina 
 {
-	min-width: 900px;
-	max-height: 550px;
 	background-color: white;
 	border: 10px solid white;
 	border-radius: 40px;
-	padding-bottom: 5px;
 	margin-bottom: 30px;
 	box-shadow: 20px 20px 20px #F2F2F2;
+	width: 900px;
+    height: 550px;
 }
 
 .ligne1, .ligne2
-{
+{   
 	display: flex;
-	flex-wrap: column;
-	justify-content:  center;
+	flex-direction: column;
 }
 
 .txth
 {
 	background-color: white;
-	padding-left: 1%;
+	padding-left: 10px;
 	justify-content: bottom;
 	position: absolute;
-	max-width: 90%;
-	max-height: 20%;
+	width: 80%;
 	line-height: 20px;	
 	font-size: 40px;
 }
@@ -496,6 +693,7 @@ aside
 footer
 {
 	width: 100%;
+	font-size: 45px;
 }
 .footer1, .footer2, .footer3
 {
@@ -508,6 +706,7 @@ footer
 }
 
 }
+
 
 
 
