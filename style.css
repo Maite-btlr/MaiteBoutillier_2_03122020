@@ -12,14 +12,9 @@ html
 body
 {
 	font-family: 'Raleway', arial,'sans-serif';
-	margin: 0 auto;
-
-}
-
-section, aside, header, article, nav
-{
-	margin-right: 5%;
-	margin-left: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 1024px;
 }
 
 section, footer
@@ -43,6 +38,7 @@ a
 }
 
 /* header desktop */
+
 .header
 {
 	padding-top: 20px;
@@ -56,13 +52,17 @@ a
 {
 	display: inline-flex;
 	float: right;	
+    
 }
 
 .hebergements, .activites
 {
 	flex-direction: row-reverse;	
 }
-
+.activites
+{
+	margin-right: 50px;
+}
 .inscription
 {
 	color: #0065FC;
@@ -201,7 +201,6 @@ color: #0065FC;
   padding: 5px 8px 5px 8px;
   font-size: 10px;
   color: #0065FC; 
-  margin-left: 5%;
 }
 
 .dispo, #info
@@ -217,32 +216,34 @@ color: #0065FC;
 }
 
 /* STARS */
+
 .stars
 {
 	color: #0065FC;
+	font-size: 12px;
 }
 .starsg
 {
 	color: #F2F2F2;
+	font-size: 12px;
 }
 
 
 /* HEBERGEMENTS */
 
+
 .hebb
 {
-	padding-left: 10px;
-	padding-top: 10px;
-	font-size: 20px;
+	padding-left: 15px;
+	font-size: 18px;
 }
 
 .hebergements2
 {
-	border-radius: 20px;
-	padding: 15px;
-	max-width: 800px;
-	max-height: 650px;
-	float: left;
+    border-radius: 20px;
+	width: 850px;
+	height: 460px;
+	padding:20px;
 }
 
 .cannebiere, .port, .mouettes, .mer, .panier, .amina 
@@ -251,24 +252,24 @@ color: #0065FC;
     border: 4px solid white;
     border-radius: 10px;
     margin: 10px;
-	width: 30%;
-	height: 10%;	
+	width: 180px;
+	height: 150px;	
 }
 
 .imgh
 {
 	object-fit: cover;
-	width: 100%;
-	height: 100px;
+	width: 180px;
+	height: 80px;
     border-radius: 10px 10px 0px 0px;
 }
 
 .txth
 {
-    padding-left: 10px;
-	width: 200px;
-	height: 50px;
-	font-size: 13px;
+    padding-left: 5px;
+	width: 175px;
+	height: 55px;
+	font-size: 12px;
 	line-height: 5px;
 }
 
@@ -279,39 +280,40 @@ color: #0065FC;
 
 .plus
 {
-	padding-left: 10px;
-	padding-top: 15px;
-	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
 }
 
  /* ASIDE */
 
 aside
 {
-	width: 400px;
-	height: 550px;
+	width: 350px;
+	height: 470px;
 	border-radius: 20px;
-	padding-bottom: 10px;	
-	float: right;
+	padding: 15px;
+	margin-left: 25px;
+
 }
 
 .pop
 {
-	font-size: 20px;
-	padding-left: 20px;
-	padding-top: 15px;
-	padding-right: 20px;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }
 #statss
 {
 	float: right;
-	padding-right: 20px;
+	padding-right: 5px;
 }
 .imgp
 {
 	object-fit: cover;
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 110px;
 	border-radius: 20px 0px 0px 20px;	
 }
 .matin, .coeureau, .bleublanc
@@ -321,31 +323,34 @@ aside
 	border-radius: 20px;
 	margin-bottom: 20px;
 	margin-left: 20px;
-	height: 120px;
-	width: 320px;
+	margin-right: 20px;
+	height: 110px;
+	width: 270px;
 	align-content: center;
 }
 
 .txt2
 {
 	border-radius: 0px 20px 20px 0px;
-	font-size: 13px;
-	width: 170px;
-	height: 120px;
+	font-size: 12px;
+	width: 160px;
+	height: 70px;
 	float: right;
-	padding-right: 15px;
-	line-height: 15px;
+	line-height: 13px;
 }
-
 .nomslogements
 {
 	padding-right: 30px;
 }
-
 .lesetoilesp
 {
-	padding-top: 15px;
-	font-size: 13px;
+	padding-top: 5px;
+}
+
+.container
+{
+	display: flex;
+	width: 100%;
 }
 
 /* ACTIVITÉS */
@@ -353,14 +358,16 @@ aside
 .act13
 {
 	font-size: 20px;
-	margin-left: 90px;
-	padding-top: 40px;
+	margin-left: 30px;
+	padding-top: 35px;
 	float: left;
+	font-size: 18px;
 }
 
 #ancrea
 {
 	display: inline-flex;
+
 }
 
 .imga, .imgb, .imgc
@@ -371,35 +378,36 @@ aside
 
 .imga 
 {
-	width: 280px;
-	height: 370px;
+	width: 235px;
+	height: 315px;
 }
 .imgb
 {
-	width:280px;
-	height: 170px;
+	width:235px;
+	height: 140px;
 }
 .imgc
 {
-	width: 280px;
-	height: 130px;	
+	width: 235px;
+	height: 100px;	
 }
 
 .vieuxport, .pomegues, .frioul, .calanques, .nddlg, .longchamp
 {
 	border-radius: 20px;
-	margin: 25px;	
+	margin-left: 25px;	
+	margin-bottom: 20px;
 	box-shadow: 1px 1px 1px 1px whitesmoke;	
 }
 
 .frioul
 {
-	margin-top: 35px;
+	margin-top: 30px;
 }
 
 .longchamp
 {
-	margin-top: 35px;
+	margin-top: 30px;
 }
 
 .name
@@ -414,27 +422,24 @@ aside
 footer
 {
 	display: flex;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size: 12px;
-	margin-left: 0px;
-	margin-right: 0px;	
+	padding: 20px;
+	font-size: 12px;	
+	width: 100%;
 }
 
 .footer1
-{
-	padding-left: 100px;
-	padding-right: 130px;
+{   
+	padding-left: 20px;
+	padding-right: 160px;
 }
 .footer2
 {
-	padding-left: 130px;
-	padding-right: 130px;
+	padding-right: 160px;
 }
 
 .footer3
 {
-	padding-left: 130px ;
+	padding-right: 160px ;
 	
 }
 
