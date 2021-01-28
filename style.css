@@ -4,7 +4,6 @@
 html
 {
    font-size: 15px;
-   margin-top: 20px;
    margin-bottom: 20px; 
 }
 body
@@ -34,6 +33,7 @@ a
 .logo
 {
 	width: 10%;
+	margin-top: 15px;
 }
 .inscription, .menu
 {
@@ -43,24 +43,38 @@ a
 .hebergements, .activites
 {
 	flex-direction: row-reverse;	
+	
 }
 .activites
 {
 	margin-right: 50px;
 	padding-left: 40px;
+	padding-top: 22px;
 }
 .inscription
 {
 	color: #0065FC;
+    padding-top: 22px;
+
 }
 .hebergements
 {
 	color: #0065FC;	
+	border-top: 2px solid #0065FC;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	
 }
+
 /* menu top */
 .found, .nature
 {
 	line-height: 8px;
+}
+.nature 
+{
+	padding-bottom: 5px;
 }
 .recherche
 { 
@@ -180,6 +194,7 @@ color: #0065FC;
 	width: 80%;
 	padding-bottom: 20px;
 	padding-left: 5px;	
+	padding-top:10px;
 }
 /* STARS */
 .stars
@@ -212,7 +227,7 @@ color: #0065FC;
     border-radius: 10px;
     margin: 10px;
 	width: 180px;
-	height: 150px;	
+	height: 150px;		
 }
 .imgh
 {
@@ -326,17 +341,17 @@ aside
 .imgb
 {
 	width:240px;
-	height: 140px;
+	height: 150px;
 }
 .imgc
 {
 	width: 240px;
-	height: 100px;	
+	height: 90px;	
 }
 .vieuxport, .pomegues, .frioul, .calanques, .nddlg, .longchamp
 {
 	border-radius: 20px;	
-	box-shadow: 1px 1px 1px 1px whitesmoke;	
+	box-shadow: 2px 2px 2px 2px whitesmoke;	
 }
 .pomegues, .frioul,.nddlg, .longchamp
 {
