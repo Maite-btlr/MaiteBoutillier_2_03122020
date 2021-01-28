@@ -13,7 +13,7 @@ body
 	margin: 0 auto;
 	width: 1024px;
 }
-section, footer
+.hebergements2, footer
 {
 	background-color:#F2F2F2; 
 }
@@ -189,7 +189,7 @@ color: #0065FC;
 }
 .starsg
 {
-	color: #F2F2F2;
+	color:#D3D3D3;
 	font-size: 12px;
 }
 /* HEBERGEMENTS */
@@ -402,10 +402,6 @@ a
     text-decoration: none;
 	color: black;
 }
-section, footer
-{
-    background-color:#F2F2F2; 
-}
 /* STARS */
 .stars
 {
@@ -549,15 +545,15 @@ button
 }
 .choix1 , .choix2 , .choix3 , .choix4
 {
- border-radius: 100px;
- border: 7px solid #F2F2F2;
- border-left-style: none;
- padding-top: 34px;
- padding-bottom: 34px;
- padding-left: 0px;
- padding-right: 20px;
- max-width: 60%;
- margin: 20px;
+    border-radius: 100px;
+    border: 7px solid #F2F2F2;
+    border-left-style: none;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 0px;
+    padding-right: 20px;
+    max-width: 60%;
+    margin: 20px;
 }
 .txtf
 {
@@ -738,6 +734,7 @@ footer
 {
 	width: 100%;
 	font-size: 45px;
+    background-color:#F2F2F2; 
 }
 .footer1, .footer2, .footer3
 {
