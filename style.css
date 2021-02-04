@@ -53,7 +53,6 @@ a
 {
 	color: #0065FC;
     padding-top: 37px;
-
 }
 .hebergements
 {
@@ -392,7 +391,7 @@ footer
 /* _________________________________FIN DESKTOP________________________________ */
 /* MOBILE */
 
-@media screen and (max-width:1023px)
+@media screen and (max-width: 1023px) 
 {
 body
 {
@@ -403,7 +402,8 @@ html
 {
     font-size: 40px;
     margin-top: 20px;
-    margin-bottom: 20px; 
+	margin-bottom: 20px; 
+	display: flex;
 }
 ul
 {
@@ -534,6 +534,7 @@ button
 	padding: 40px;
 	background-color: #DEEBFF; 
 	color:#0065FC ;	
+	
 }
 .icons2  
 {
@@ -635,9 +636,10 @@ button
 	background-color: white;
 	padding-left: 10px;
 	position: absolute;
-	width: 80%;
-	line-height: 20px;	
 	font-size: 40px;
+	width: 850px;
+	height: 200px;
+	line-height: 15px;
 }
 .lesetoilesh
 {
@@ -680,7 +682,7 @@ aside
 .txt2
 {
 	background-color: white;
-	width: 520px;
+	width: 500px;
 	height: 350px;
 	line-height: 40px;
 	float: right;
