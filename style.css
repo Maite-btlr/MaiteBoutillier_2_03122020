@@ -491,8 +491,8 @@ a
 }
 .recherche
 {
-	border-radius: 20%;
-	border: 20% #F2F2F2;
+	border-radius: 20px;
+	border: 20px #F2F2F2;
 	display: inline-flex;
 	text-align: center;	
 	width: 90%;
