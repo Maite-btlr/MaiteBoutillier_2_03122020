@@ -405,7 +405,6 @@ html
     font-size: 1em;
     margin-top: 2%;
 	display: flex;
-	box-sizing: border-box;
 }
 ul
 {
@@ -679,7 +678,6 @@ aside
 	padding-bottom: 20px;	
 	background-color: #F2F2F2;
 	width: 100%;
-	padding-left: 2%;
 }
 .matin, .coeureau, .bleublanc
 {
